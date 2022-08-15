@@ -24,7 +24,7 @@ func Generate(opts Opts) {
 		pattern, _ = regexp.Compile(opts.Exclude)
 	}
 
-	dbmls := parseDBML(opts.From, opts.Recursive, pattern)
+	dbmls := dbmlReader(opts.From)
 
 	g := newgen()
 	g.out = opts.Out
