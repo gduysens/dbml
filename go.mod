@@ -1,4 +1,4 @@
-module github.com/duythinht/dbml-go
+module github.com/gduysens/dbml
 
 go 1.14
 

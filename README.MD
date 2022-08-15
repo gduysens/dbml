@@ -7,7 +7,7 @@ DBML-go is a Go parser for [DBML](https://www.dbml.org) syntax.
 Go get
 
 ```bash
-go get github.com/duythinht/dbml-go/...
+go get github.com/gduysens/dbml/...
 ```
 
 ## Quick start
@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/duythinht/dbml-go/parser"
-	"github.com/duythinht/dbml-go/scanner"
+	"github.com/gduysens/dbml/parser"
+	"github.com/gduysens/dbml/scanner"
 )
 
 func main() {
@@ -40,7 +40,7 @@ func main() {
 ## Go model generate
 
 ```bash
-go get github.com/duythinht/dbml-go/cmd/dbml-go-gen-model
+go get github.com/gduysens/dbml/cmd/dbml-go-gen-model
 ```
 
 ```
